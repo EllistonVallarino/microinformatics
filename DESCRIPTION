@@ -1,11 +1,15 @@
 Package: microinformatics
-Title: What the Package Does (One Line, Title Case)
+Title: Data analysis for 16S/18S data
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Elliston", "Vallarino", , "elliston.vallarinoreyes@mail.mcgill.ca", role = c("aut", "cre"))
+Description: This package helps fo cleaning and reshaping MOTHUR output data for better analysis and visualisation.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Config/roxygen2/version: 8.1.0
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/EllistonVallarino/microinformatics
+BugReports: https://github.com/EllistonVallarino/microinformatics/issues
