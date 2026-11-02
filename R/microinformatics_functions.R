@@ -1,3 +1,10 @@
+#' @title Microinformatics
+#' @description
+#' Package for cleaning and reshaping MOTHUR outputs for easier analysis and visualization.
+#'
+#' @param clean_shared, MOTHUR output .shared, without the OTU/ASVRare1, as an object
+#' @param taxonomy_file, MOTHUR output taxonomy file .cons.taxonomy as an object
+#'
 #' @export
 get_taxclean <- function(clean_shared, taxonomy_file){
 
