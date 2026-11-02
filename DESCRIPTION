@@ -8,6 +8,24 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Config/roxygen2/version: 8.1.0
+Depends : 
+    ggtext,
+    tidyverse,
+    ggplot2,
+    readxl,
+    vegan,
+    FSA,
+    ggsignif,
+    data.table,
+    glue,
+    dplyr,
+    patchwork,
+    ggpubr,
+    rstatix,
+    pals,
+    tictoc,
+    broom,
+    furrr
 Suggests: 
     knitr,
     rmarkdown,
