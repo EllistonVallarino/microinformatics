@@ -12,5 +12,5 @@ get_taxclean(clean_shared, taxonomy_file)
 \item{taxonomy_file, }{MOTHUR output taxonomy file .cons.taxonomy as an object}
 }
 \description{
-Package for cleaning and reshaping MOTHUR outputs for easier analysis and visualization.
+If the shared file was filtered, this function removes those ASVs from the taxonomy table.
 }
